@@ -19,7 +19,7 @@ To use this model with Latin Pipe you need to:
 - run Latin Pipe over your CoNLL-U file, for instance `my_file.conllu` (Latin Pipe does not perform tokenization) with the command:
     - `python3.11 latinpipe_evalatin24.py --load Portparser_v2_model/model.weights.h5 --exp annotation --test my_file.conllu`
 
-Latin Pipe requires the absence of errors in the input `.conllu` file, so it is safer to have the input `.conllu` file with only the first two and last columns filled (token ID, FORM, and MISC) and all other columns empty (LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, and DEPS).
+Latin Pipe requires the absence of errors in the input `.conllu` file, so it is safer to have the input `.conllu` file with only the first two and last columns filled (token ID, FORM, and MISC) and all other columns empty (token LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, and DEPS).
 
 # Annotation of Textual files
 If you do not have a CoNLL-U file of your text to be annotated, you can use the following programs to:
