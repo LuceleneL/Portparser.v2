@@ -2,10 +2,17 @@
 
 Second version of Portparser, a parsing model to perform the annotation following the Universal Dependencies (UD) framework for Portuguese language. texts.
 
-In this repository you have access to the model that can be employed using the latinpipe (https://github.com/ufal/evalatin2024-latinpipe)
+This new version of Portparser was create using the Latin Pipe software (https://github.com/ufal/evalatin2024-latinpipe) trained over the second version of the corpus Porttinari-base as training set and using BERTimbau (bert-base-portuguese-cased) as word embedings model. The model was generate with 80 iterations and the final achieved indices for convergeance were the impressive:
+- UPOS: 99.45%
+- UFeats: 99.19%
+- AllTags: 98.92%
+- Lemmas: 98.77%
+- UAS: 97.17%
+- LAS: 96.19%
+
 
 # The Available Model
-This model is available here and it is composed by the contents of the directory [Portparser_v2_model]().
+This model is available here and it is composed by the contents of the directory [Portparser_v2_model](https://github.com/LuceleneL/Portparser.v2/tree/main/Portparser_v2_model).
 To use this model with Latin Pipe you need to:
 - install Latin Pipe in your machine - see the requirements and instructions at [Latin Pipe page](https://github.com/ufal/evalatin2024-latinpipe);
 - copy the directory `Portparser_v2_model` to the same location of your Latin Pipe code file (`latinpipe_evalatin24.py`);
