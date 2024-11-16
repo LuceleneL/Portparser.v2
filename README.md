@@ -33,7 +33,7 @@ If you do not have a CoNLL-U file of your text to be annotated, you can use the 
 
 ## File Structure
 The files are stored in the following directories:
-- `Portparser_v2_model` - the proposed model to be used with Latin Pipe (incomplete as of now, but downloadable [here](https://drive.google.com/file/d/1fus6fz3XTUZIVXM58T-ygemCbuFzQnqf/view?usp=sharing);
+- `Portparser_v2_model` - the proposed model to be used with Latin Pipe (incomplete as of now, but downloadable in full [here](https://drive.google.com/file/d/1fus6fz3XTUZIVXM58T-ygemCbuFzQnqf/view?usp=sharing));
 - `myFile.conllu` - an example of input (a CoNLL-U file with five sentences in Portuguese).
 
 # Acknowledgments
