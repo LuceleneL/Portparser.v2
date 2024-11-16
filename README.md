@@ -12,7 +12,8 @@ This new version of Portparser was create using the Latin Pipe software (https:/
 
 
 # The Available Model
-This model is available in the contents of the directory `Portparser_v2_model`. SInce this file is too large for Git Hub - 1.53 Gb - there it is available for download [here](https://drive.google.com/file/d/1fus6fz3XTUZIVXM58T-ygemCbuFzQnqf/view?usp=sharing).
+This model is available in the contents of the directory `Portparser_v2_model`. Since this file is too large for Git Hub - 1.53 Gb - it is available for download [here](https://drive.google.com/file/d/1fus6fz3XTUZIVXM58T-ygemCbuFzQnqf/view?usp=sharing).
+
 To use this model with Latin Pipe you need to:
 - install Latin Pipe in your machine - see the requirements and instructions at [Latin Pipe page](https://github.com/ufal/evalatin2024-latinpipe);
 - download (click [here](https://drive.google.com/file/d/1fus6fz3XTUZIVXM58T-ygemCbuFzQnqf/view?usp=sharing)) and unzip the directory `Portparser_v2_model` to the same location of your Latin Pipe code file (`latinpipe_evalatin24.py`);
