@@ -1,6 +1,6 @@
-# Portparser.v2
+# Portparser.v2 (beta version)
 
-Second version of Portparser, a parsing model to perform the annotation following the Universal Dependencies (UD) framework for Portuguese language. texts.
+Second version of Portparser, a parsing model to perform the annotation following the Universal Dependencies (UD) framework for Portuguese language. texts. This is currently a beta version, the final version should be upload in 2025.
 
 This new version of Portparser was create using the Latin Pipe software (https://github.com/ufal/evalatin2024-latinpipe) trained over the second version of the corpus Porttinari-base as training set and using BERTimbau (bert-base-portuguese-cased) as word embedings model. The model was generate with 80 iterations and the final achieved indices for convergeance were the impressive:
 - UPOS: 99.45%
