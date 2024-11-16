@@ -12,10 +12,10 @@ This new version of Portparser was create using the Latin Pipe software (https:/
 
 
 # The Available Model
-This model is available here and it is composed by the contents of the directory [Portparser_v2_model](https://github.com/LuceleneL/Portparser.v2/tree/main/Portparser_v2_model).
+This model is available in the contents of the directory [Portparser_v2_model (click here to download the zipped file)]([https://github.com/LuceleneL/Portparser.v2/tree/main/Portparser_v2_model](https://drive.google.com/file/d/1fus6fz3XTUZIVXM58T-ygemCbuFzQnqf/view?usp=sharing)).
 To use this model with Latin Pipe you need to:
 - install Latin Pipe in your machine - see the requirements and instructions at [Latin Pipe page](https://github.com/ufal/evalatin2024-latinpipe);
-- copy the directory `Portparser_v2_model` to the same location of your Latin Pipe code file (`latinpipe_evalatin24.py`);
+- download and unzip the directory `Portparser_v2_model` to the same location of your Latin Pipe code file (`latinpipe_evalatin24.py`);
 - run Latin Pipe over your CoNLL-U file, for instance `my_file.conllu` (Latin Pipe does not perform tokenization) with the command:
     - `python3.11 latinpipe_evalatin24.py --load Portparser_v2_model/model.weights.h5 --exp annotation --test my_file.conllu`
 
