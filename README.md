@@ -23,9 +23,9 @@ Latin Pipe requires the absence of errors in the input `.conllu` file, so it is 
 
 # Annotation of Textual files
 If you do not have a CoNLL-U file of your text to be annotated, you can use the following programs to:
-- perform the segmentation of your textual files:
+- perform the segmentation of your textual files (this software receives as input a textual file and returns a textual file with one sentence per line):
     - https://github.com/LuceleneL/portSentencer
-- perform the tokenization of segmented sentences file:
+- perform the tokenization of segmented sentences file (this software receives a textual file with one sentence per line and return a `.conllu` file ready to be annotated):
     - https://github.com/LuceleneL/portTokenizer
 
 
