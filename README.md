@@ -62,7 +62,7 @@ The files are stored in the following directories:
         - `NUM.tsv` - list of number in written;
         - `PRON.tsv` - list of pronouns;
         - `SCONJ.tsv` - list of subordinative conjunctions;
-        - `VERB.tsv` - list of verbs;
+        - `VERB.tsv` - list of verbs (this file was too large - it can be downloaded [here](https://drive.google.com/file/d/1N2k6W42SgGX18e_YXz7W5wiSVufWL3lq/view?usp=sharing);
         - `WORDmaster.txt` - full list of forms in the lexikon.
 
 
